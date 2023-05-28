@@ -1,7 +1,6 @@
 import Modal from 'react-modal';
 import React, { useContext } from 'react'
 import matches from '../data-for-matches/Matches.json'
-import Reacket from 'reacket';
 
 Modal.setAppElement('#__next')
 

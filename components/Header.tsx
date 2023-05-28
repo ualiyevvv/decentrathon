@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import qush_logo from '../assets/qush_logo.png';
-import Login from '../pages/login';
+import { ConnectWallet } from "@thirdweb-dev/react";
 
 const style = {
     wrapper: `p-4 w-screen flex justify-between items-center`,
@@ -47,7 +47,7 @@ const Header = () => {
             <div className={style.buttonsContainer}>
                 <div className={style.buttonPadding} >
                     
-               <div className={style.button} ><a> <Link href="/login">Login</Link></a></div>
+                <ConnectWallet />;
                 </div>
                 <div className="flex -space-x-2 overflow-hidden">
                     <Link href="/Page">
