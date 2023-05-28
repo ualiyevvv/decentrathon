@@ -20,8 +20,10 @@ const style = {
 }
 
 const Header = () => {
-    const [selectedNav, setSelectedNav] = useState('Tornaments')
-    const navItems: string[] = ['Tornaments', 'News', 'Rating']
+    const [selectedNav, setSelectedNav] = useState('Storage Providers')
+    const navItems: string[] = ['Storage Providers', 'News', 'Rating']
+
+
 
     return (
         <div className={style.wrapper}> 
